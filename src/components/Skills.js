@@ -1,0 +1,82 @@
+import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+function Skills(){
+
+    const skillStyles = {
+    display: 'flex',
+    justifyContent : 'center',
+    alignItems: 'center',
+}
+    return(
+        <>
+           <h1 className='text-center mt-5'>My Skills</h1>
+           <Container className='mt-5'>
+                <Row>
+                    <Col xs={4} style={skillStyles}>
+                        <Card body style={{width:'300px'}}>
+                        <img src='flutter.png'  width={'60px'} className='mx-3'/>
+                        FLutter
+                        </Card>
+                    </Col>
+                    <Col xs={4} style={skillStyles}>
+                    <Card body style={{width:'300px'}}>
+                        <img src='django.png'  width={'100px'}/>
+                        Django
+                        </Card>
+                    </Col>
+                    <Col xs={4} style={skillStyles}>
+                    <Card body style={{width:'300px'}}>
+                        <img src='node.png'  width={'100px'}/>
+                        Node Js
+                        </Card>
+                    </Col>
+                </Row>
+                <Row className='mt-5'>
+                    <Col xs={4} style={skillStyles}>
+                        <Card body style={{width:'300px'}}>
+                        <img src='angular.png'  width={'55px'} className='mx-3'/>
+                        Angular
+                        </Card>
+                    </Col>
+                    <Col xs={4} style={skillStyles}>
+                    <Card body style={{width:'300px'}}>
+                        <img src='react.png'  width={'80px'}/>
+                        React Js
+                        </Card>
+                    </Col>
+                    <Col xs={4} style={skillStyles}>
+                    <Card body style={{width:'300px'}}>
+                        <img src='vue.png'  width={'55px'}/>
+                        Vue Js
+                        </Card>
+                    </Col>
+                </Row>
+                <Row className='mt-5'>
+                    <Col xs={4} style={skillStyles}>
+                    <Card body style={{width:'300px'}}>
+                        <img src='laravel.png'  width={'60px'} className='mx-3'/>
+                        Laravel
+                        </Card>
+                    </Col>
+                    <Col xs={4} style={skillStyles}>
+                        <Card body style={{width:'300px'}}>
+                        <img src='mysql.png'  width={'90px'} className='mx-2'/>
+                        MySQL
+                        </Card>
+                    </Col>
+                    <Col xs={4} style={skillStyles}>
+                    <Card body style={{width:'300px'}}>
+                        <img src='mongodb.png'  width={'75px'}/>
+                        Mongodb
+                        </Card>
+                    </Col>
+                </Row>
+            </Container> 
+        </>
+    )
+}
+
+export default Skills;
