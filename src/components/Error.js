@@ -1,6 +1,6 @@
 function Error(){
     return(
-        <h1 className="m-5"><b>Error 404 | Page Not Found</b></h1>
+        <h1 className="m-5"><b>Error 404 | Page Not Found!</b></h1>
     )
 }
 
