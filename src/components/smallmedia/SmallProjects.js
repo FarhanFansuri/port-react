@@ -39,7 +39,7 @@ function minMedia(){
             <Row className='my-5'>
                 <Col xs={6}>
                 <Card style={{ width: '10rem' }}>
-                <Card.Img variant="top" src="vue.png" style={{width:'7.5rem', margin:'auto'}} />
+                <Card.Img variant="top" src="vue.png" style={{width:'6rem', margin:'auto'}} />
                 <Card.Body>
                     <Card.Title style={{ fontSize: '17px' }}>Todo list</Card.Title>
                     <Card.Text style={{textAlign: 'justify'}}>
