@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+// import Form from 'react-bootstrap/Form';
 
 function NormalContact(){
     return (
@@ -27,14 +28,17 @@ function NormalContact(){
                         Dribbble</Card>
                     </Container>
                 </Col>
-                <Col xs={5} style={{ backgroundColor:'black', height:'75vh', borderRadius:'20px'}}>
-                    <h1 className='text-center my-5 text-white'>Send me email &#128231;</h1>
-                    <form action="https://formsubmit.co/your@email.com" method="POST">
+                <Col xs={1}></Col>
+                <Col xs={4} style={{ border: '2px solid black', borderRadius:'20px' }} className='p-5'>
+                    <h1 className='text-center'>Send me email &#128231;</h1>
+                    <form action="https://formsubmit.co/mfarhan912345@gmail.com" method="POST">
                     <input type="hidden" name="_subject" value="New submission!"/>
-                     <input type="email" name="email" placeholder="Your email"/>
-                    <textarea name="message" placeholder="Details of your problem"></textarea>
+                    <label for='email'>Your Email</label>
+                     <input type="email" name="email" placeholder="Your email" className=' form-control'/> <br/>
+                    <label for='message'>Your Message</label>
+                    <textarea name="message" placeholder="Your message"  className=' form-control'></textarea><br/>
                     <input type="hidden" name="_captcha" value="false"/>
-                    <button type="submit">Send</button>
+                    <button type="submit" className='btn btn-info'>Send</button>
                     </form>                   
                 </Col>
             </Row>

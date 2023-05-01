@@ -23,13 +23,13 @@ function SmallSkills(){
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='django.png'  width={'88px'} alt=''/>
+                        <img src='django.png'  width={'80px'} alt=''/>
                         Django
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='node.png'  width={'88px'} alt=''/>
+                        <img src='node.png'  width={'80px'} alt=''/>
                         Node Js
                         </Card>
                     </Col>
