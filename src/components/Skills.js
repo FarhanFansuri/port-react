@@ -17,19 +17,19 @@ function Skills(){
                 <Row>
                     <Col xs={4} style={skillStyles}>
                         <Card body style={{width:'300px'}}>
-                        <img src='flutter.png'  width={'60px'} className='mx-3'/>
+                        <img src='flutter.png'  width={'60px'} alt='' className='mx-3'/>
                         FLutter
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='django.png'  width={'100px'}/>
+                        <img src='django.png'  width={'100px'} alt=''/>
                         Django
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='node.png'  width={'100px'}/>
+                        <img src='node.png'  width={'100px'} alt=''/>
                         Node Js
                         </Card>
                     </Col>
@@ -37,19 +37,19 @@ function Skills(){
                 <Row className='mt-5'>
                     <Col xs={4} style={skillStyles}>
                         <Card body style={{width:'300px'}}>
-                        <img src='angular.png'  width={'55px'} className='mx-3'/>
+                        <img src='angular.png'  width={'55px'} alt='' className='mx-3'/>
                         Angular
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='react.png'  width={'80px'}/>
+                        <img src='react.png'  width={'80px'} alt=''/>
                         React Js
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='vue.png'  width={'55px'}/>
+                        <img src='vue.png'  width={'55px'} alt=''/>
                         Vue Js
                         </Card>
                     </Col>
@@ -57,19 +57,19 @@ function Skills(){
                 <Row className='mt-5'>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='laravel.png'  width={'60px'} className='mx-3'/>
+                        <img src='laravel.png'  width={'60px'} alt='' className='mx-3'/>
                         Laravel
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                         <Card body style={{width:'300px'}}>
-                        <img src='mysql.png'  width={'90px'} className='mx-2'/>
+                        <img src='mysql.png'  width={'90px'} className='mx-2' alt=''/>
                         MySQL
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='mongodb.png'  width={'75px'}/>
+                        <img src='mongodb.png'  width={'75px'} alt=''/>
                         Mongodb
                         </Card>
                     </Col>
