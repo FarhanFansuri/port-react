@@ -12,11 +12,21 @@
   border-radius: 20px;
 }
 
+.card-project{
+  width: 18rem;
+}
+.image-project{
+  height:29vh;
+  width:13rem;
+   margin:'auto'
+}
+
 .profile-image img{
   animation: moveimg 1.5s infinite alternate;
   position: relative;
   left: 10vw;
 }
+
 .info-list:hover{
   transform: scale(1.1);
   position: relative;
@@ -31,5 +41,52 @@
   100%{
     top: 0vh;
     left:10vw;
+  }
+}
+
+@keyframes moveimgsmall{
+  0%{
+    top: 0vh;
+    left: 0vw;
+  }
+  100%{
+    top: 0vh;
+    left:25vw;
+  }
+}
+
+@media all and (max-width:500px){
+
+  .info-list:hover{
+    transform: scaleX(1.1);
+    position: relative;
+  }
+
+
+  .card-project{
+    width: 70px;
+    font-size: small;
+  }
+
+  .image-project{
+    height:9vh;
+    width:3rem;
+    margin:'auto'
+  }
+
+  .profile-image{
+    margin-left: 10%;
+    position: relative;
+    margin-top: 7vh;
+    height: 150px;
+    width: 150px;
+    border: 7px black solid;
+    border-radius: 20px;
+  }
+
+  .profile-image img{
+    animation: moveimgsmall 1.5s infinite alternate;
+    position: relative;
+    left: 10vw;
   }
 }
