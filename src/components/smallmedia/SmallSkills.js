@@ -9,6 +9,7 @@ function SmallSkills(){
     display: 'flex',
     justifyContent : 'center',
     alignItems: 'center',
+    fontSize: '13px'
 }
     return(
         <>
@@ -17,19 +18,19 @@ function SmallSkills(){
                 <Row>
                     <Col xs={4} style={skillStyles}>
                         <Card body style={{width:'300px'}}>
-                        <img src='flutter.png'  width={'54px'} alt='' className='mx-3'/>
+                        <img src='flutter.png'  style={{ width:'50px' }} alt='' className='mx-3'/>
                         FLutter
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='django.png'  width={'80px'} alt=''/>
+                        <img src='django.png'  style={{ width:'75px' }} alt=''/>
                         Django
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='node.png'  width={'80px'} alt=''/>
+                        <img src='node.png'  style={{ width:'75px' }} alt=''/>
                         Node Js
                         </Card>
                     </Col>
@@ -37,13 +38,13 @@ function SmallSkills(){
                 <Row className='mt-5'>
                     <Col xs={4} style={skillStyles}>
                         <Card body style={{width:'300px'}}>
-                        <img src='angular.png'  width={'55px'} alt='' className='mx-3'/>
+                        <img src='angular.png'  style={{ width:'55px' }} alt='' className='mx-3'/>
                         Angular
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='react.png'  width={'80px'} alt=''/>
+                        <img src='react.png'  width={'75px'} alt=''/>
                         React Js
                         </Card>
                     </Col>
@@ -63,13 +64,13 @@ function SmallSkills(){
                     </Col>
                     <Col xs={4} style={skillStyles}>
                         <Card body style={{width:'300px'}}>
-                        <img src='mysql.png'  width={'80px'} className='mx-2' alt=''/>
+                        <img src='mysql.png'  style={{ width:'70px' }} className='mx-2' alt=''/>
                         MySQL
                         </Card>
                     </Col>
                     <Col xs={4} style={skillStyles}>
                     <Card body style={{width:'300px'}}>
-                        <img src='mongodb.png'  width={'75px'} alt=''/>
+                        <img src='mongodb.png'  width={'70px'} alt=''/>
                         Mongodb
                         </Card>
                     </Col>
